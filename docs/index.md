@@ -10,7 +10,7 @@ Service deployed on <https://faucet.ambisafe.co>
 
 ## API usage
 
-**POST /dispense** with body:
+**POST /dispense** with header **Authorization: [JWT faucet token]** and body:
 ```json
 {
 	"to": "your ethereum address",
