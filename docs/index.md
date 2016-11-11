@@ -27,7 +27,7 @@ will give 0.01 Ether from the Treasury and this response:
 ```
 
 ## JWT faucet token
-```json
+```js
 {
 	"iss": API_KEY,
 	"jti": uuid4,
